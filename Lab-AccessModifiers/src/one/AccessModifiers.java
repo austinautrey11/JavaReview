@@ -1,0 +1,21 @@
+package one;
+
+
+import two.ProtectedSubClass;
+
+public class AccessModifiers {
+	
+	public static void main(String[] args) {
+		
+		// access class methods here
+		
+		Person Adam = new Person();
+		Adam.age = 15;
+		
+		System.out.println(Adam.age);
+		
+		ProtectedSubClass psc = new ProtectedSubClass();
+		psc.printID();
+	}
+
+}
